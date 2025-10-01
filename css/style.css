@@ -1,0 +1,35 @@
+body {
+ background: #f4f4f4;
+  text-align: center;
+}
+.header{
+  background-color: blue;
+color: #f4f4f4;
+    padding: 20px;
+}
+  .program:hover {
+  transform: scale(1.05);
+}
+.program  {
+  width: 250px;
+  background:rgb(255, 255, 255);
+ 
+  margin: 15px;
+  padding: 10px;
+ transition: transform 0.3s;
+}
+.program img {
+  width: 100%;
+  height: 180px;
+ border-radius: 5px;
+}
+.programs { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+ 
+
+
+
